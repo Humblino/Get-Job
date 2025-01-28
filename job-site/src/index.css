@@ -1,6 +1,8 @@
 body{
-  background-color:grey;
-  width: 900px;
+  background-color: gray;
+  padding-top: 100px;
+  padding-left: 20px;
+
 }
 .all{
   background-color: white;
@@ -9,20 +11,29 @@ body{
 }
 .navbar{
   width: 1240px;
-  height: 80px;
+  height: 68px;
   display: flex;
   padding-top: 25px;
   left: 100px;
+} 
+hr{
+  color: whitesmoke;
 }
+
 .logo{
-  margin-right: 10px;
-  margin-top:15px;
-  margin-left: 100px;
-  width: 30px;
-  height: 30px;
+  margin-left: 80px;
 }
+
+
 .list{
   display: flex;
+  justify-content: space-between;
+  height: 68px;
+  width: 1240px;
+  margin-left: 50px;
+  font-weight: 500;
+  font-size: 16px;
+  padding-top: 25px;
 }
 .signup{
   margin-left: 45px;
@@ -31,6 +42,7 @@ body{
   background-color: white;
   border-radius: 25px;
   width: 160px;
+  padding-bottom: 40px;
 }
 .login{
    background-color:  rgba(200, 255, 200, 0.6);
@@ -38,6 +50,10 @@ body{
    border-radius: 25px;
    border: none;
    width: 160px;
+   margin-bottom: 45px;
+   height: 45px;
+   font-weight: 700;
+   margin-bottom: 40px;
 }
 span{
   color: green;
@@ -91,31 +107,47 @@ span{
 
 .input1{
   width: 300px;
- height: 30px;
+ height: 40px;
  border-radius: 25px;
  margin-left: 30px;
+ border-width: 1px, solid, rgb(236, 234, 234);
 }
 .trust{
  margin-left: 30px;
 }
 .input2{
   width: 145px;
-  height: 30px;
+  height: 40px;
   position: absolute;
   z-index: 2;
   left: 325px;
   text-align: center;
-
+  border-width: 1px, solid, rgb(236, 234, 234);
 }
 .input3{
-  height: 34.5px;
-  width: 50px;
-  border-radius: 15px;
-  position: absolute;
-  left: 450px;
+  height: 45px;
+  width: 65px;
+  border-radius: 25px;
+  position: relative;
+  left: 410px;
   border: none;
   background-color: green;
   z-index: 1;
+  top: -45px;
+}
+.search-icon{
+  position: absolute;
+  left: 490px;
+  top: 218px;
+  z-index: 2;
+  color: white;
+}
+.map-icon{
+  position: absolute;
+  left: 340px;
+  top: 217px;
+  z-index: 2;
+  color: white;
 }
 
 .recommend{
@@ -161,34 +193,39 @@ span{
 
 .pay-sec{
 position: absolute;
-background-color: rgba(250, 250, 250, 1);
-border: 5px;
+background-color: white;
 width: 300px;
 height: 300px;
+border-width: 1px solid green;
+box-shadow: 10px 5px 0.2px rgba(200, 255, 200, 0.1);
 
 }
 .google-sec{
-background-color: rgba(250, 250, 250, 1);
+background-color: white;
 position: absolute;
 left: 328px;
-border: 5px;
+border-width: 1px solid green;
+box-shadow: 10px 5px 0.2px rgba(200, 255, 200, 0.1);
 width: 300px;
 height: 300px;
 }
 .flutter-sec{
-background-color: rgba(250, 250, 250, 1);
+background-color:white;
 position: absolute;
 left: 650px;
-border: 5px;
+border-width: 1px solid green;
+box-shadow: 10px 5px 0.2px rgba(200, 255, 200, 0.1);
 width: 300px;
 height: 300px;
 }
 .access-sec{
-background-color: rgba(250, 250, 250, 1);
+background-color: white;
 position: absolute;
 left: 970px;
 width: 300px;
 height: 300px;
+border-width: 1px solid green;
+box-shadow: 10px 5px 0.2px rgba(200, 255, 200, 0.1);
 
 }
 .arrow{
@@ -268,17 +305,20 @@ height: 300px;
 .gridlog{
   text-align: center;
   position: absolute;
-  display: flex;
-  gap: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  row-gap: 20px;
+  column-gap: 20px;
+  background-color: white;
 }
 .oil{
   width: 296px;
   height: 275px;
   text-align: center;
   align-content: center;
-  background-color: rgba(250, 250, 250, 1);
+  background-color: white;
   border-radius: 10px;
-  border: 1px;
+  border: 1px solid lightgray;
 
 }
 
@@ -287,9 +327,10 @@ height: 300px;
   height: 275px;
   text-align: center;
   align-content: center;
-  background-color: rgba(250, 250, 250, 1);
+  background-color: white;
   border-radius: 10px;
-  border: 2px;
+  border: 1px solid lightgray;
+
 }
 
 .education{
@@ -297,9 +338,9 @@ height: 300px;
   height: 275px;
   text-align: center;
   align-content: center;
-  background-color: rgba(250, 250, 250, 1);
+  background-color: white;
   border-radius: 10px;
-  border: 1px;
+  border: 1px solid lightgray;
 }
 
 .accounting{
@@ -307,9 +348,11 @@ height: 300px;
   height: 275px;
   text-align: center;
   align-content: center;
-  background-color: rgba(250, 250, 250, 1);
+  background-color: white;
   border-radius: 10px;
-  border: 1px;
+  border: 1px solid lightgray;
+
+
 }
 
 .design{
@@ -317,10 +360,11 @@ height: 300px;
   height: 275px;
   text-align: center;
   align-content: center;
-  background-color: rgba(250, 250, 250, 1);
+  background-color: white;
   border-radius: 10px;
-  position: absolute;
-  top: 350px;
+  border: 1px solid lightgray;
+
+
 }
 
 .technology{
@@ -328,11 +372,10 @@ height: 300px;
   height: 275px;
   text-align: center;
   align-content: center;
-  background-color: rgba(250, 250, 250, 1);
+  background-color: white;
   border-radius: 10px;
-  position: absolute;
-  top: 350px;
-  left: 316px;
+  border: 1px solid lightgray;
+
 }
 
 .security{
@@ -340,11 +383,10 @@ height: 300px;
   height: 275px;
   text-align: center;
   align-content: center;
-  background-color: rgba(250, 250, 250, 1);
+  background-color: white;
   border-radius: 10px;
-  position: absolute;
-  top: 350px;
-  left: 632px;
+  border: 1px solid lightgray;
+
 }
 
 .data{
@@ -352,11 +394,12 @@ height: 300px;
   height: 275px;
   text-align: center;
   align-content: center;
-  background-color: rgba(250, 250, 250, 1);
+  background-color: white;
+  position: relative;
+  top: -300px;
   border-radius: 10px;
-  position: absolute;
-  top: 350px;
-  left: 948px;
+  border: 1px solid lightgray;
+
 }
 .head{
   position: relative;

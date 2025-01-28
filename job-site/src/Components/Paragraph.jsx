@@ -3,6 +3,8 @@ import paystack from '../assets/paystack.svg'
 import googlelogo from '../assets/googlelogo.svg'
 import kpmglogo from '../assets/kpmglogo.svg'
 import heroimage from '../assets/heroimage.svg'
+import Search from '../assets/Search.svg'
+import Mappin from '../assets/Mappin.png'
 
 
 function Paragraph(){
@@ -15,8 +17,11 @@ function Paragraph(){
         <div className='input-sect'>
             <input className='input1' type= "text" placeholder='Enter keyword, skills, interest'/>
             <input className='input2' type= "text" placeholder='Location'/>
-            <input className='input3' type= "search"/>
-            <img src ="bx-search.svg"/>
+            <div className='search-button'>
+            <button className='input3' type= "search"></button>
+            <img className='search-icon' src ={Search} width={'20px'}/>
+            <img className='map-icon' src={Mappin}/>
+        </div>
         </div>
 
         <h4 className='trust'>Trusted by:</h4>

@@ -16,9 +16,8 @@ function Header(){
         <button className='login'>Log In</button>
         </ul>
     </div>
-
-
     </div>
+
   );
 }
 export default Header
