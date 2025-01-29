@@ -3,7 +3,7 @@ import Freelogo from "../assets/Freelogo.png"
 
 function Header(){
   return(
-    <div className='all'>
+    <div className='container'>
     <div className='navbar'>
     <img className='logo' src={Freelogo} width={'80px'} height={'80px'} alt='logo'/>
     <ul className='list'>

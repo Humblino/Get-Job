@@ -5,6 +5,7 @@ import Flutterlogo from '../assets/Flutterlogo.png';
 import accesslogo from '../assets/accesslogo.png';
 import PrevArrow from '../assets/PrevArrow.png';
 import NextArrow from '../assets/NextArrow.png';
+import Mappin from '../assets/Mappin.png';
 
 
 function Body(){
@@ -22,7 +23,8 @@ function Body(){
                     <h4 className='QA'>QA Engineer</h4>
                     <hr></hr>
                     <h4>paystack</h4>
-                    <p>* Lagos, Nigeria</p>
+                    <p className='lagos2'> Lagos, Nigeria</p>
+                    <img className='map2' src={Mappin}/>
                     <button className='apply'>Apply now</button>
                 </div>
                 <div className='google-sec'>
@@ -31,8 +33,9 @@ function Body(){
                     <h4 className='QA'>Product Analyst</h4>
                     <hr></hr>
                     <h4>Google</h4>
-                    <p>* Lagos, Nigeria</p>
-                    <button className='apply'>Apply now</button>
+                    <p className='lagos2'> Lagos, Nigeria</p>
+                    <img className='map2' src={Mappin}/>
+                    <button className='applygoogle'>Apply now</button>
                 </div>
                 <div className='flutter-sec'>
                 <button className='nav-body'>Full time</button>
@@ -40,7 +43,8 @@ function Body(){
                     <h4 className='QA'>HR Manager</h4>
                     <hr></hr>
                     <h4>Flutterwave</h4>
-                    <p>* Abuja, Nigeria</p>
+                    <p className='lagos2'> Abuja, Nigeria</p>
+                    <img className='map2' src={Mappin}/>
                     <button className='apply'>Apply now</button>
                 </div>
                 <div className='access-sec'>
@@ -49,7 +53,8 @@ function Body(){
                     <h4 className='QA'>QA Engineer</h4>
                     <hr></hr>
                     <h4>Paystack</h4>
-                    <p>* Lagos, Nigeria</p>
+                    <p className='lagos2'> Lagos, Nigeria</p>
+                    <img className='map2' src={Mappin}/>
                     <button className='apply'>Apply now</button>
                 </div>
                 </div>

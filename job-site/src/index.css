@@ -1,20 +1,23 @@
 body{
   background-color: gray;
-  padding-top: 100px;
-  padding-left: 20px;
-
+  padding: 100px 20px 100px 20px;
 }
-.all{
+
+.container{
   background-color: white;
   width: 1400px;
   height: 5000px;
+  padding: 20px;
 }
+
 .navbar{
   width: 1240px;
   height: 68px;
   display: flex;
   padding-top: 25px;
+  margin-bottom: 45px;
   left: 100px;
+  cursor: pointer;
 } 
 hr{
   color: whitesmoke;
@@ -42,7 +45,8 @@ hr{
   background-color: white;
   border-radius: 25px;
   width: 160px;
-  padding-bottom: 40px;
+  height: 40px;
+
 }
 .login{
    background-color:  rgba(200, 255, 200, 0.6);
@@ -50,10 +54,8 @@ hr{
    border-radius: 25px;
    border: none;
    width: 160px;
-   margin-bottom: 45px;
-   height: 45px;
+   height: 40px;
    font-weight: 700;
-   margin-bottom: 40px;
 }
 span{
   color: green;
@@ -69,7 +71,7 @@ span{
   background-color:  rgba(200, 255, 200, 0.2);
   position: absolute;
   left: 100px;
-  top: 200px;
+  top: 250px;
   width: 850px;
   height: 500px;
   padding-left: 50px;
@@ -110,7 +112,7 @@ span{
  height: 40px;
  border-radius: 25px;
  margin-left: 30px;
- border-width: 1px, solid, rgb(236, 234, 234);
+ border: 1px, solid, rgb(236, 234, 234);
 }
 .trust{
  margin-left: 30px;
@@ -122,7 +124,7 @@ span{
   z-index: 2;
   left: 325px;
   text-align: center;
-  border-width: 1px, solid, rgb(236, 234, 234);
+  border: 1px, solid, rgb(236, 234, 234);
 }
 .input3{
   height: 45px;
@@ -154,7 +156,7 @@ span{
   position: absolute;
   width: 1367px;
   height: 496px;
-  top: 720px;
+  top: 770px;
   left: 100px;
 }
 .section{
@@ -189,6 +191,22 @@ span{
   border: none;
   margin-left: 160px;
   height: 20px;
+}
+.applygoogle{
+  background-color: rgba(95, 135, 95, 0.861);
+  color: darkgreen;
+  border-radius: 25px;
+  border: none;
+  margin-left: 160px;
+  height: 20px;
+}
+.map2{
+  position: relative;
+  top: -38px;
+}
+.lagos2{
+  position: relative;
+  left: -50px;
 }
 
 .pay-sec{
@@ -525,3 +543,29 @@ h5{
   bottom: 160px;
   left: 330px;
 }
+@media (max-width: 468px) {
+  .container{
+    max-width: 468px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .container{
+    max-width: 768px;
+  }
+}
+
+@media (max-width: 940px) {
+  .container{
+    max-width: 940px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .container{
+    max-width: 1200px;
+  }
+}
+
+
